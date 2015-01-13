@@ -1,0 +1,14 @@
+/home/yo/.rbenv/versions/2.1.2/bin/ruby -r ./siteconf20150113-19900-1fll1yi.rb extconf.rb 
+checking for labs() in stdlib.h... yes
+checking for llabs() in stdlib.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bigdecimal.c
+linking shared-object bigdecimal.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20150113-19900-2on8ps
+installing default bigdecimal libraries
