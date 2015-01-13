@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :posts
+
+  resources :books
 
 resources :users, only: [:index, :show]
 #resources :test, only: [:index, :show]

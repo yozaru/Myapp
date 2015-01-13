@@ -6,7 +6,7 @@ gem 'rails', '4.2.0'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+#gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -30,11 +30,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'unicorn'
 gem 'turbolinks'
 gem 'rb-readline'
+
+#Bootstrap
 gem 'less-rails'
-gem "twitter-bootstrap-rails"
-gem 'jquery-ui-rails'
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+gem 'twitter-bootstrap-rails', '~> 2.2.8'
+gem 'font-awesome-rails'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sass-rails'
+gem 'simple_form'
+#Use Capistrano for deployment
+gem 'capistrano-rails', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
